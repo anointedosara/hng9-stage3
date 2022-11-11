@@ -1,0 +1,39 @@
+.footer {
+    background: #1D1D1E;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #F1F3F9;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1252px;
+    margin: 0 auto;
+    padding: 70px 0 20px;
+}
+
+.footer-logo {
+    margin-bottom: 100px;
+}
+
+.footer div div img {
+    margin-right: 40px;
+}
+
+.footer div div div {
+    margin-bottom: 30px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
