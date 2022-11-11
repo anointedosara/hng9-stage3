@@ -1,11 +1,16 @@
 .navbar {
+    padding: 20px 30px;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1252px;
     margin: 0 auto;
-    padding: 30px 0;
-    background: white;
 }
 
 .navbar ul {
@@ -32,4 +37,5 @@
     color: #FFFFFF;
     padding: 16px 30px;
     border: none;
+    font-family: 'Red Rose';
 }

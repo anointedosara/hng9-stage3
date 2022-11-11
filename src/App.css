@@ -9,4 +9,6 @@ body {
   padding: 0;
   font-family: 'Red Rose';
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  max-width: 1540px;
+  margin: 0 auto;
 }
