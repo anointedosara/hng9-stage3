@@ -5,11 +5,11 @@ function Footer() {
     <div className='footer'>
       <div className='footer-inner'>
         <div>
-          <img className='footer-logo' src="../images/footer-logo.svg" alt="" />
+          <img className='footer-logo' src="./images/footer-logo.svg" alt="" />
           <div>
-            <img src="../images/facebook.svg" alt="" />
-            <img src="../images/instagram.svg" alt="" />
-            <img src="../images/twitter.svg" alt="" />
+            <img src="./images/facebook.svg" alt="" />
+            <img src="./images/instagram.svg" alt="" />
+            <img src="./images/twitter.svg" alt="" />
           </div>
           <p>&copy; 2022 Metabnb</p>
         </div>

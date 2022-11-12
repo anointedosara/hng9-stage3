@@ -10,10 +10,10 @@ function Navbar() {
     <div className='nav'>
       <nav className='navbar'>
       <div>
-        <Link to='/' onClick={() => setDropdown(false)}><img className='logo' src="../images/logo.svg" alt="" /></Link>
-        <img onClick={() => setDropdown(!dropdown)} className='drop' src="../images/navbar-icon.svg" alt="" />
+        <Link to='/' onClick={() => setDropdown(false)}><img className='logo' src="./images/logo.svg" alt="" /></Link>
+        <img onClick={() => setDropdown(!dropdown)} className='drop' src="./images/navbar-icon.svg" alt="" />
         <span>
-          <p onClick={() => setShow(!show)}>Features <img  className={show !== false ? 'rotate' : ''} src="../images/arrow-down.svg" alt="" /></p>
+          <p onClick={() => setShow(!show)}>Features <img  className={show !== false ? 'rotate' : ''} src="./images/arrow-down.svg" alt="" /></p>
         <ul className={show !== false ? 'show' : 'hide'}>
           <Link to='/' onClick={() => setShow(!show)}><li>Home</li></Link>
           <Link to='/placetostay' onClick={() => setShow(!show)}><li>Place to stay</li></Link>
