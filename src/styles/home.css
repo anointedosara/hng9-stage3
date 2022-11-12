@@ -1,9 +1,14 @@
+.home {
+    width: 100%;
+}
+
 .home-intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1252px;
     margin: 0 auto;
+    width: 100%;
     padding: 70px 30px 80px;
 }
 
@@ -89,18 +94,18 @@
 
 .home-logos div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
     max-width: 1252px;
     margin: 0 auto;
-    gap: 264px;
+    width: 100%;
 }
 
 .home-nfts {
     max-width: 1252px;
     margin: 0 auto;
-    padding: 0 30px 50px;
+    padding: 0 60px 50px;
 }
 
 .home-nfts h2 {
@@ -123,7 +128,7 @@
     background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
     border: 1px solid #D7D7D7;
     border-radius: 15px;
-    padding: 15px;
+    padding: 25px;
 }
 
 .home-nfts-container img {
@@ -188,4 +193,153 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 35px;
+}
+
+@media screen and (max-width: 1023px) {
+    .home-intro-text h1 {
+        font-size: 40px;
+        line-height: 125%;
+    }
+    .home-intro-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .home-form input {
+        width: 65%;
+        padding: 10px 18px;
+    }
+    .home-form button {
+        width: 35%;
+        padding: 10px 18px;
+    }
+    .home-intro-img {
+        width: 45%;
+    }
+    .home-nfts h2 {
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .home-nfts-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 60px;
+    }
+    .home-nfts-container-item {
+        background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+        border: 1px solid #D7D7D7;
+        border-radius: 25px;
+        padding: 15px;
+    }
+    
+    .home-nfts-container img {
+        width: 100%;
+    }
+    
+    .home-nfts-container-item div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .home-nfts-container-item div p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #434343;
+        margin: 10px 0 0 0;
+    }
+    
+    .stars {
+        width: 92px !important;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .home-intro {
+        flex-direction: column-reverse;
+        padding: 0px 30px 60px;
+    }
+    .home-intro-text {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .home-intro-text h1 {
+        font-size: 27px;
+        line-height: 140%;
+    }
+    .home-intro-text p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .home-form {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .home-form input {
+        width: 70%;
+    }
+    .home-form button {
+        width: 30%;
+    }
+    .home-intro-img {
+        padding: 20px 80px 0 80px;
+        width: 100%;
+    }
+    .home-intro-img img {
+        width: 100%;
+    }
+    .home-logos {
+        background: #A02279;
+        margin-bottom: 60px;
+    }
+    .home-logos div {
+        flex-direction: column;
+    }
+    .home-logos div img {
+        margin: 5px 0;
+        width: 200px;
+    }
+    .home-nfts {
+        max-width: 1252px;
+        margin: 0 auto;
+        padding: 0 90px 50px;
+    }
+    .home-nfts h2 {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 50px;
+        line-height: 30px;
+    }
+    .home-nfts-container {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .home-nfts-container-item {
+        border-radius: 25px;
+    }
+    .home-nfts-container img {
+        width: 100%;
+    }
+    .metabnb {
+        flex-direction: column-reverse;
+        padding: 50px 30px;
+        text-align: center;
+    }
+    .home-metabnb-img {
+        width: 100%;
+        padding: 0 80px 20px;
+    }
+    .home-metabnb-text {
+        width: 100%;
+    }
+    .home-metabnb-text h2 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .home-metabnb-text p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 10px;
+    } 
 }

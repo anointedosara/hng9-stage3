@@ -37,3 +37,39 @@
     font-size: 18px;
     margin-bottom: 15px;
 }
+
+.copywright {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        font-size: 16px;
+    }
+    .footer-inner {
+        flex-direction: column;
+        padding: 30px 30px 10px;
+        text-align: center;
+    }
+    .footer-logo {
+        margin: 0 0 20px 0;
+    }
+    .footer div div img {
+        margin: 20px 20px 0;
+    }
+    .footer div div div {
+        margin-bottom: 10px;
+    }
+    .footer ul {
+        padding: 0;
+    }
+    .footer ul li:first-child {
+        font-size: 20px;
+    }
+    .footer-inner p {
+        display: none;
+    }
+    .copywright {
+        display: block !important;
+    }
+}

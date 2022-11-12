@@ -34,6 +34,7 @@ function Footer() {
           <li>Career</li>
           <li>Contact us</li>
         </ul>
+        <p className='copywright'>&copy; 2022 Metabnb</p>
       </div>
     </div>
   )
