@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from './Modal'
 
 function Navbar() {
+  const [showModal, setShowModal] = useState(false)
   return (
-    <nav className='navbar'>
+    <div className='nav'>
+      <nav className='navbar'>
       <div>
         <img src="./images/logo.svg" alt="" />
         <ul>
@@ -11,9 +14,11 @@ function Navbar() {
           <li>NFTs</li>
           <li>Community</li>
         </ul>
-        <button>Connect wallet</button>
+        <button onClick={() => setShowModal(true)}>Connect wallet</button>
       </div>
     </nav>
+      {showModal && <Modal closeModal={() => setShowModal(false)} />}
+    </div>
   )
 }
 

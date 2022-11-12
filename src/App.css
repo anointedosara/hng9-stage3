@@ -3,6 +3,7 @@
 @import url('./styles/footer.css');
 @import url('./styles/home.css');
 @import url('./styles/placetostay.css');
+@import url('./styles/modal.css');
 
 body {
   margin: 0;
