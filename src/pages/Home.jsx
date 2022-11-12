@@ -15,15 +15,15 @@ function Home() {
                 </div>
             </div>
             <div className='home-intro-img'>
-                <img src="./images/rent-img.svg" alt="" />
+                <img src="../images/rent-img.svg" alt="" />
             </div>
         </div>
 
         <div className='home-logos'>
             <div>
-                <img src="./images/mb-token.svg" alt="" />
-                <img src="./images/metamusk.svg" alt="" />
-                <img src="./images/opensea.svg" alt="" />
+                <img src="../images/mb-token.svg" alt="" />
+                <img src="../images/metamusk.svg" alt="" />
+                <img src="../images/opensea.svg" alt="" />
             </div>
         </div>
 
@@ -41,7 +41,7 @@ function Home() {
                             <p>{item?.distance}</p>
                             <p>{item?.availability}</p>
                         </div>
-                        <img className='stars' src="./images/stars.svg" alt="" />
+                        <img className='stars' src="../images/stars.svg" alt="" />
                     </div>)
                 }
             </div>
@@ -54,7 +54,7 @@ function Home() {
                     <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
                 </div>
                 <div className='home-metabnb-img'>
-                    <img src="./images/metabnb-img.svg" alt="" />
+                    <img src="../images/metabnb-img.svg" alt="" />
                 </div>
             </div>
         </div>
