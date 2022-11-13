@@ -68,4 +68,25 @@
 
 .modal-wallet div img {
     margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 375px) {
+    .modal-details-header {
+        font-size: 17px;
+        padding: 20px;
+    }
+    .modal-wallet {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .modal-wallets {
+        padding: 20px;
+    }
+    .modal-wallets p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+    }
 }

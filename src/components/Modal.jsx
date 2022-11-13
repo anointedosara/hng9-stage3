@@ -13,7 +13,7 @@ function Modal(props) {
             <p>Choose your preferred wallet:</p>
             <div className='modal-wallet'>
                 <div>
-                    <img src="./images/metamask-head.svg" alt="" />
+                    <img src="./images/metamask-head.png" alt="" />
                     Metamask
                 </div>
                 <img src="./images/arrow-right.svg" alt="" />

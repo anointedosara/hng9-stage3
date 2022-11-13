@@ -15,7 +15,7 @@ function Home() {
                 </div>
             </div>
             <div className='home-intro-img'>
-                <img src="./images/rent-img.svg" alt="" />
+                <img src="./images/rent-img.png" alt="" />
             </div>
         </div>
 
@@ -54,7 +54,7 @@ function Home() {
                     <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
                 </div>
                 <div className='home-metabnb-img'>
-                    <img src="./images/metabnb-img.svg" alt="" />
+                    <img src="./images/metabnb-img.png" alt="" />
                 </div>
             </div>
         </div>

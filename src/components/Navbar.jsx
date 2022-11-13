@@ -6,6 +6,11 @@ function Navbar() {
   const [showModal, setShowModal] = useState(false)
   const [dropdown, setDropdown] = useState(false)
   const [show, setShow] = useState(false)
+
+  const handleClick = () => {
+    setShowModal(true)
+    setDropdown(!dropdown)
+  }
   return (
     <div className='nav'>
       <nav className='navbar'>
@@ -33,7 +38,7 @@ function Navbar() {
           <li onClick={() => setDropdown(!dropdown)}>NFTs</li>
           <li onClick={() => setDropdown(!dropdown)}>Community</li>
         </ul>
-        <button onClick={() => setShowModal(true)}>Connect wallet</button>
+        <button onClick={handleClick}>Connect wallet</button>
       </div>
     </div>
   )
