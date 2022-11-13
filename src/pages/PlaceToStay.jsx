@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import placeToStayData from '../data2'
 
 function PlaceToStay() {
@@ -6,11 +6,9 @@ function PlaceToStay() {
 
   const locations = ['Resturant', 'Cottage', 'Castle', 'fantast city', 'beach', 'Carbins', 'Off-grid', 'Farm']
   
-  window.addEventListener('scroll', (e) => {
-    setStyle(false)
-  });
-
-  window.scroll(0, 0)
+  useEffect(() => {
+    window.scroll(0, 0)
+  }, [])
   return (
     <div className='place'>
       <div className='place-locations'>
@@ -24,6 +22,8 @@ function PlaceToStay() {
           <img src="./images/location-icon.svg" alt="" />
         </div>
       </div>
+
+      <div className={style !== false ? 'show cover' : 'hide'} onClick={() => setStyle(false)}></div>
 
       <div className='home-nfts'>
         <div className='home-nfts-container'>

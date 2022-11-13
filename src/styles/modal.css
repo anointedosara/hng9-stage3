@@ -35,6 +35,10 @@
     margin: 0;
 }
 
+.modal-details-header img {
+    cursor: pointer;
+}
+
 .modal-wallets {
     padding: 30px;
 }

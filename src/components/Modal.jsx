@@ -2,7 +2,7 @@ import React from 'react'
 
 function Modal(props) {
   return (
-    <div className='modal'>
+    <div className='modal' onClick={props?.closeModal}>
       <div className='modal-details' onClick={(e) => e.stopPropagation()}>
         <div className='modal-details-header'>
             <h3>Connect Wallet</h3>
