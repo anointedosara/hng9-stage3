@@ -9,6 +9,8 @@ function PlaceToStay() {
   window.addEventListener('scroll', (e) => {
     setStyle(false)
   });
+
+  window.scroll(0, 0)
   return (
     <div className='place'>
       <div className='place-locations'>

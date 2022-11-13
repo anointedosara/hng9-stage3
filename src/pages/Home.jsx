@@ -3,6 +3,8 @@ import cardData from '../data'
 
 function Home() {
     const [search, setSearch] = useState('')
+
+    window.scroll(0, 0)
   return (
     <div className='home'>
         <div className='home-intro'>
