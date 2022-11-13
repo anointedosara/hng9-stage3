@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 0px 60px 30px;
+    padding: 0px 30px 60px 30px;
 }
 
 .place-locations ul {
@@ -60,6 +60,7 @@
         margin: 0 0 60px 30px;
         padding-bottom: 0;
         padding-left: 0;
+        padding-right: 0;
     }
     .cover {
         position: fixed;
@@ -101,13 +102,17 @@
 
 @media screen and (max-width: 450px) {
     .place-locations ul {
-        width: calc(100% - 60px);
-        top: 70px;
+        width: 100%;
+        top: 30px;
     }
     .place-locations div {
         width: 100%;
     }
     .place-locations {
-        padding: 40px 30px 30px;
+        margin: 20px 30px 30px;
+        width: calc(100% - 60px);
+    }
+    .place {
+        padding-top: 0;
     }
 }
