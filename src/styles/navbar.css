@@ -10,6 +10,7 @@
     top: 0;
     background: #ffffff;
     width: 100%;
+    z-index: 1000;
 }
 
 .navbar span p {
@@ -98,7 +99,9 @@
         left: -13px;
         margin-left: 0px;
         font-size: 15px;
-        background: silver;
+        background: white;
+        align-items: flex-start;
+        border: 1px solid #B4B4B4;
         border-radius: 5px;
         width: 130px;
         gap: 8px;

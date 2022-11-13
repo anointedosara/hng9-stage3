@@ -11,6 +11,10 @@ function Navbar() {
     setShowModal(true)
     setDropdown(!dropdown)
   }
+
+  window.addEventListener('scroll', (e) => {
+    setShow(false)
+  });
   return (
     <div className='nav'>
       <nav className='navbar'>
